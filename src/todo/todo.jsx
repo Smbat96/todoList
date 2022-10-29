@@ -11,7 +11,6 @@ export function Todo() {
     const [editText, setEditText] = useState("");
     const [errorMessage, setErrorMessage] = useState('');
     const createTodoRef = useRef();
-    const js =[]
 
     return (
         <>
