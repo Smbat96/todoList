@@ -1,0 +1,66 @@
+.daysboardsector {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.dayboard {
+    width: 14%;
+    min-height: 600px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.todos {
+    min-height: 600px
+}
+
+.todo {
+    padding-top: 10px;
+
+}
+
+.todo-section {
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.buttons-section {
+    margin-left: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.todo-text {
+    font-size: 20px;
+    margin-left: 13px;
+    word-break: normal;
+}
+
+.edit-button {
+    width: 80px;
+    height: 30px
+}
+
+.delete-button {
+    width: 80px;
+    margin-left: auto;
+    height: 30px
+}
+
+.no-todo {
+    text-align: center;
+    color: gray;
+    margin-top: 5px;
+}
+
+.title-and-statistics {
+    display: flex;
+}
+
+.statistics-text {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: 5px;
+}
